@@ -3,11 +3,60 @@
     padding: 0px;
 }
 
+.main .sidebar ul li {
+    list-style: none;
+    font-size: 18px;
+    padding: 3px 0px;
+    font-family: ảial;
+    border-bottom: 1px dotted #adabab;
+}
+
+.main .sidebar ul li a {
+    color: #f68933;
+    text-decoration: none;
+}
+
+.main .sidebar h2 {
+    color: #008552;
+    font-size: 20px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.sidebar >div {
+    background-color: #f1f1f1;
+    width: 262px;
+    height: 201px;
+    border-radius: 9px;
+    padding: 1px 20px;
+    margin: 25px 0px;
+}
+
+.main-content .main .breadcrumbs ul li span {background: url(https://muahoaonline.com/skin/frontend/dalat_v2/default/images/icon-footer.png) no-repeat scroll 9px 6px;padding: 1px 12px 12px 3px;}
+
+.main-content .main ul {
+    height: 42px;
+}
+
+.main-content .main .breadcrumbs ul li {
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    margin-left: 13px;
+    font-size: 15px;
+    color: #636262;
+}
+
+.main-content .main .breadcrumbs {
+    height: 42px;
+    background-color: #efefef;
+    margin: 15px 0px;
+    border-radius: 14px;
+}
+
 .copyright .icon div {
     float: right;
 }
-
-.col-sm-6 {}
 
 .row.copyright {
     height: 45px;
@@ -98,10 +147,11 @@ hr {}
 
 .nav-container ul li {
     display: inline-block;
-    width: 116px;
+    width: 121px;
     height: 42px;
     text-align: center;
     line-height: 42px;
+    margin-left: -3px;
     border-right: 1px solid white;
 }
 
