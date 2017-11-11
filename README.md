@@ -1,8 +1,8 @@
 # TTCN-2017 Website for sale flowers
 
-##Decscription
+## Decscription
 
-##Team member
+## Team member
 1. Phan Quang Vuong
 2. Nguyen Tri Vien
 3. Nguyen Van Dat
