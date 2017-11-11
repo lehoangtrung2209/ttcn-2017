@@ -2,27 +2,74 @@
     margin:0px;
     padding: 0px;
 }
-
+.create_account {
+    margin: 31px 0px;
+}
+.create_account .button a {
+    text-decoration: none;
+}
+.create_account .button input[type="submit"] {
+    background-color: #008753;
+    color: white;
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+.create_account .button input[type="submit"]:hover {
+    background-color: #014e30;
+}
+.create_account .col-sm-6 {
+    margin: 10px 0px;
+}
+.create_account input[type="text"],input[type="password"] {
+    width: 235px;
+    height: 32px;
+    border: 1px solid #cac7c7;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.create_account form label {
+    display: block;
+    font-size: 15px;
+    font-family: arial;
+    color: #717070;
+}
+.create_account em {
+    color: #f68933;
+}
+.create_account .information-account h3 {
+    font-size: 18px;
+    color: #068649;
+    font-weight: bold;
+}
+.create_account .information-account.row {
+    border-bottom: 1px solid #c7c6c6;
+    padding-bottom: 36px;
+}
+.create_account h2 {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #c3c0c0;
+    padding-bottom: 15px;
+}
 .main .sidebar ul li {
     list-style: none;
     font-size: 18px;
     padding: 3px 0px;
-    font-family: ảial;
+    font-family: áº£ial;
     border-bottom: 1px dotted #adabab;
 }
-
 .main .sidebar ul li a {
     color: #f68933;
     text-decoration: none;
 }
-
 .main .sidebar h2 {
     color: #008552;
     font-size: 20px;
     padding-bottom: 6px;
     border-bottom: 1px solid #cccccc;
 }
-
 .sidebar >div {
     background-color: #f1f1f1;
     width: 262px;
@@ -31,13 +78,11 @@
     padding: 1px 20px;
     margin: 25px 0px;
 }
-
 .main-content .main .breadcrumbs ul li span {background: url(https://muahoaonline.com/skin/frontend/dalat_v2/default/images/icon-footer.png) no-repeat scroll 9px 6px;padding: 1px 12px 12px 3px;}
 
 .main-content .main ul {
     height: 42px;
 }
-
 .main-content .main .breadcrumbs ul li {
     display: inline-block;
     height: 42px;
@@ -46,88 +91,68 @@
     font-size: 15px;
     color: #636262;
 }
-
 .main-content .main .breadcrumbs {
     height: 42px;
     background-color: #efefef;
     margin: 15px 0px;
     border-radius: 14px;
 }
-
 .copyright .icon div {
     float: right;
 }
-
 .row.copyright {
     height: 45px;
     line-height: 45px;
     background-color: black;
     color: #c7c7c7;
 }
-
 .row.copyright a {
     color: #d6d6d6;
 }
-
 .footer a {
     color: black;
     text-decoration: none;
 }
-
 .footer a:hover {
     text-decoration: none;
     color: red;
 }
-
 .footer .content1 ul li {
     background: url(https://muahoaonline.com/skin/frontend/dalat_v2/default/images/icon-footer.png) 0px 5px no-repeat;
     padding-left: 12px;
     margin: 13px 0px;
 }
-
 .footer .content >ul >li {
     margin: 24px 0px;
 }
-
 .footer .content >ul >li h4 {
     background: url(https://muahoaonline.com/skin/frontend/dalat_v2/default/images/bg-shoplocation-footer.png) center left no-repeat;
     padding-left: 21px;
 }
-
-hr {}
-
 .footer .info .info-Cat li h3 {
     font-size: 20px;
     padding-bottom: 13px;
     background: url(https://muahoaonline.com/skin/frontend/dalat_v2/default/images/bg-line.jpg) repeat-x left bottom;
 }
-
 .footer ul li {
     list-style: none;
 }
-
 .info {
     background: url(https://muahoaonline.com/skin/frontend/dalat_v2/default/images/bg-footer.jpg) repeat;
     color: #636262;
 }
-
 .footer .info .info-Cat >li {
     width: 330px;
     float: left;
     margin-right: 50px;
 }
-
 .footer .row .container p:first-child img {
     float: right;
     width: 380px;
 }
-
 .footer .row .container p:first-child img:nth-child(2) {
     padding-top: 4px;
 }
-
-
-
 .nav-container ul li a {
     text-decoration: none;
     color: white;
@@ -137,14 +162,10 @@ hr {}
     height: 42px;
     display: block;
 }
-
-
-
 .nav-container {
     height: 42px;
     background-color: #9ac56a;
 }
-
 .nav-container ul li {
     display: inline-block;
     width: 121px;
@@ -154,33 +175,26 @@ hr {}
     margin-left: -3px;
     border-right: 1px solid white;
 }
-
 .nav-container ul li:first-child {
     border-left: 1px solid white;
 }
-
 .nav-container ul li:hover {
     background-color: #f68933;
 }
-
 .container {
     padding-bottom: 10px;
 }
-
 .header {
     background-color: #ebf5e0;
 }
-
 .header-static .col p {
     font-size: 16px;
     color: #736e6e;
 }
-
 .header-static .col h2 {
     font-size: 18px;
     color: #2fab7b;
 }
-
 .header-static .header-time {
     float: right;
 }
@@ -190,21 +204,17 @@ hr {}
     width: 188px;
     height: 69px;
 }
-
 .header-static .header-time h2 {
     color: #f9aa6c;
 }
-
 .header-box ul li a {
     color: #737373;
 }
-
 .header-box ul {
     background: #e3e3e3;
 
     border-radius: 12px;
 }
-
 .header-box ul li {
     border-right: 2px solid white;
     height: 36px;
@@ -212,15 +222,12 @@ hr {}
     line-height: 36px;
     text-align: center;
 }
-
 .header-box ul li:last-child {
     border: none;
 }
-
 .header-box {
     float: right;
 }
-
 .header-box ul li {
     display: inline-block;
 }
